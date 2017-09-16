@@ -35,3 +35,43 @@ body{
 #index-nav li a:hover:not(.active){
 	background-color:#ddd;
 }
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+#menu-bar{
+	width:200px;
+	padding:10px;
+	float: left;
+	border:1px dotted;
+	border-radius: 15px;
+}
+.personal-data,.article-search,.blog-category,.reading-list,.recommended-articles{
+	margin-top:15px;
+}
+
+.information{
+	text-align: center;
+	margin-top:10px;
+}
+.title{
+	width: 180px;
+	padding:5px 10px;
+	border-radius: 10px;
+	background-color: gainsboro;
+	margin-bottom: 10px;
+}
+.list{
+	padding:10px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:visited {color: black}
+a:hover {color: cornflowerblue}
+a:active {color: #0000FF}
+
