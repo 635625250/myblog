@@ -1,0 +1,37 @@
+
+body{
+	padding:0;
+	margin:0;
+	background-color: #f6f6f6;
+}
+/*banner*/
+.container.logo{
+	width:100%;
+	height:100px;
+	border:1px solid black;
+}
+/*导航栏*/
+.container.navigation{
+
+}
+#index-nav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	border:1px solid #e7e7e7;
+	background-color:#f3f3f3;
+}
+#index-nav li{
+	float:left;
+}
+#index-nav li a{
+	display:block;
+	color:#666;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+#index-nav li a:hover:not(.active){
+	background-color:#ddd;
+}
